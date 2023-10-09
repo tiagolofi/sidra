@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<!-- Write your comments here -->
+<html>
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+		<style>
+			body {
+				font-family: "Lato", sans-serif;
+			}
+		</style>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>GAPE API Docs</title>
+	</head>
+	<body>
+		<h1>API do GAPE (<b>https://gape-api.fly.dev/</b>)</h1>
+			<h3>Rendimentos (<b>rendimento?</b>) </h3>
+				<p>
+					Rendimento médio real habitualmente recebido por mês e efetivamente recebido no mês de referência, de todos os trabalhos, total e por sexo e coeficiente de variação.
+					<ul>
+						<li><b>nid=5933</b>: Rendimento médio real de todos os trabalhos, habitualmente recebido por mês, pelas pessoas de 14 anos ou mais de idade, ocupadas na semana de referência, com rendimento de trabalho</li>
+						<li><b>nid=5935</b>: Rendimento médio real de todos os trabalhos, efetivamente recebido no mês de referência, pelas pessoas de 14 anos ou mais de idade, ocupadas na semana de referência, com rendimento de trabalho</li>
+						<li><b>nid=5941</b>: Coeficiente de variação - Rendimento médio real de todos os trabalhos, habitualmente recebido por mês, pelas pessoas de 14 anos ou mais de idade, ocupadas na semana de referência, com rendimento de trabalho</li>
+						<li><b>nid=5943</b>: Coeficiente de variação - Rendimento médio real de todos os trabalhos, efetivamente recebido no mês de referência, pelas pessoas de 14 anos ou mais de idade, ocupadas na semana de referência, com rendimento de trabalho</li> 
+					</ul>
+				</p>
+			<h3>IPCA São Luís (<b>ipca</b>) </h3>
+				<p>
+					Contribuição (%), Variação Mensal (%), Impacto e Pesos do IPCA dessazonalisado para o Município de São Luís. 
+				</p>
+			<h3>Ocupação (<b>ocupacao?</b>) </h3>
+				<p>
+					Taxa combinada de desocupação e de subocupação por insuficiência de horas trabalhadas - variações em relação ao trimestre anterior e coeficiente de variação (<b>table=6483</b>)
+					<ul>
+						<li><b>&nid=4114</b>: Taxa combinada de desocupação e de subocupação por insuficiência de horas trabalhadas, na semana de referência, das pessoas de 14 anos ou mais de idade</li>    
+						<li><b>&nid=4115</b>: Coeficiente de variação - Taxa combinada de desocupação e de subocupação por insuficiência de horas trabalhadas, na semana de referência, das pessoas de 14 anos ou mais de idade"</li>
+						<li><b>&nid=9360</b>: Variação em relação ao trimestre anterior - Taxa combinada de desocupação e de subocupação por insuficiência de horas trabalhadas, na semana de referência, das pessoas de 14 anos ou mais de idade</li>
+					</ul>
+				</p>
+				<p>
+					Taxa combinada da desocupação e da força de trabalho potencial - variações em relação ao trimestre anterior e 	coeficiente de variação (<b>table=6484</b>)
+					<ul>
+						<li><b>&nid=4116</b>: Taxa combinada de desocupação e força de trabalho potencial, na semana de referência, das pessoas de 14 anos ou mais de idade</li>
+						<li><b>&nid=4117</b>: Coeficiente de variação - Taxa combinada de desocupação e força de trabalho potencial, na semana de referência, das pessoas de 14 anos ou mais de idade</li>
+						<li><b>&nid=9368</b>: Variação em relação ao trimestre anterior - Taxa combinada de desocupação e força de trabalho potencial, na semana de referência, das pessoas de 14 anos ou mais de idade</li>
+					</ul>
+				</p>
+			<h3>Exemplo</h3>
+				<a href="https://gape-api.fly.dev/ocupacao?table=6483&nid=4114">Exemplo de Requisição</a>
+	</body>
+</html>
